@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size:1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: hsl(0, 0%, 90%);
+}
+.area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+.area-logo, .area-menu{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+a:link,a:visited{
+    color:#f7b600;
+}
+ .area-cabecalho a:link, .area-cabecalho  a:visited{
+    color:#e6e6e6;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background: white;
+}
+h1{
+    color: #4e4e4e;
+    font-size:2.5em;
+}
+h2{
+    color:#f7b600;
+}
+h
+.branco{
+    color:#f5f5dc;
+}
+h3{
+    background:#565656;
+    background:#ccc;
+    padding: 5px;
+}
+
+
+.area-principal{
+    background:#fcf7fcb4;
+    
+    width:920px;
+    margin: 0 auto;
+    padding:15px;
+    
+}
+.area-postagens{
+    width: 660px;
+    float: left;
+    background:white;
+}
+.area-lateral{
+    width: 240px;
+    float: right;
+    
+
+
+}
+.conteudo-lateral{
+    background:white;
+}
+
+.postagen{
+    padding:20px;
+ 
+
+   margin-bottom: 20px;
+    background:white;
+}
+.texto-lateral{
+    font-size :0.8em;
+    padding:5px;
+    border-bottom: 1px dotted #ccc;
+
+}
+.rodape{
+    clear: both;
+    text-align: center;
+    padding:15px;
+    background:#ccc;
+}
+
